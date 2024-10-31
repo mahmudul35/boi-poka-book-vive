@@ -1,10 +1,10 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 const Header = () => {
   const links = (
     <>
       <li>
-        <a href="">Home</a>
+        <NavLink to={"/"}>Home</NavLink>
       </li>
       <li>
         <a href="">Listed Books</a>

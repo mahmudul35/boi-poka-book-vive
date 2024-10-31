@@ -6,7 +6,7 @@ import Header from "../NavBar/Header";
 
 const Root = () => {
   return (
-    <div>
+    <div className="max-w-6xl mx-auto">
       <Header />
       <Outlet />
       <Footer />
